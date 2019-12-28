@@ -1,55 +1,74 @@
 # Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+favicon: assets/favicon.ico
 
 # Personal info
 name: 안정민
 title: Backend Developer
 email: dkswjdals89@gmail.com
-# website: www.github.com/sproogen/resume-theme
+#phone: Your phone number (optional)
+#website: Your website (eg. https://google.com)(optional)
+
+darkmode: false
 
 # Social links
-# twitter_username: facespics
-github_username:  dkswjdals89
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: chillwildlife
-# linkedin_username: jameswgrant
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
+#twitter_username: jekyllrb
+github_username:  dkswdjals89
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+#linkedin_username: jekyll
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
-about_profile_image: images/profile.jpeg
+# about_title: About Me (Use this to override about section title)
+about_profile_image: assets/images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   새로운 것을 경험하고 배우는것을 좋아하는 7년차 개발자 안정민 입니다.
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 # Projects Section
-# projects_title: Projects
+# projects_title: Projects #(Use this to override about projects section title)
 
 # Experience Section
-# experience_title: Experience
+# experience_title: Experience #(Use this to override about experience section title)
 
 # Education Section
-# educaton_title: Education
+# education_title: Education #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me
+# more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Rock climbing
-   - Gaming
-   - Knitting
-   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
 
 # Build settings
-remote_theme: sproogen/resume-theme
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -57,3 +76,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]

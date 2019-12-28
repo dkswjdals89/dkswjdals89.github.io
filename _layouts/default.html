@@ -1,41 +1,49 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<header>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/font-kopub/1.0/kopubdotum.css'>
+</header>
 
 {%- include head.html -%}
 
-<body>
+<body class="{% if site.darkmode %}dark{% endif %}">
 
-    {%- include header.html -%}
+  {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-        <div class="wrapper">
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
 
-            {%- include about.html -%}
+      {%- if jekyll.environment == 'production' and site.gtm -%}
+        {%- include gtm_body.html -%}
+      {%- endif -%}
 
-            {%- if site.data.projects.size > 0 -%}
-                {%- include projects.html -%}
-            {%- endif -%}
+      {%- include about.html -%}
 
-            {%- if site.data.experience.size > 0 -%}
-                {%- include experience.html -%}
-            {%- endif -%}
+      {%- if site.data.skill.size > 0 -%}
+        {%- include skill.html -%}
+      {%- endif -%}
 
-            {%- if site.data.education.size > 0 -%}
-                {%- include education.html -%}
-            {%- endif -%}
+      {%- if site.data.projects.size > 0 -%}
+        {%- include projects.html -%}
+      {%- endif -%}
 
-            {%- include more.html -%}
+      {%- if site.data.experience.size > 0 -%}
+        {%- include experience.html -%}
+      {%- endif -%}
 
-        </div>
-    </main>
+      {%- if site.data.education.size > 0 -%}
+        {%- include education.html -%}
+      {%- endif -%}
 
-    {%- include footer.html -%}
+      {%- if site.more_content -%}
+        {%- include more.html -%}
+      {%- endif -%}
 
-    <a href="https://github.com/sproogen/resume-theme" target="_blank">
-      <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
-        alt="Fork me on GitHub">
-    </a>
+    </div>
+  </main>
 
+  {%- include footer.html -%}
+  <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
 </body>
 
 </html>

@@ -1,0 +1,22 @@
+- layout: left
+  name: Languages & Famework
+  description: | # this will include new lines to allow paragraphs
+    * C#
+      * ASP.net
+      * Winform
+      * WPF
+    * Java
+      * Spring Famework
+      * Mybaties
+      * Hibernate
+      * Maven, Gradle
+    * JavaScript
+      * Node.js
+      * Paser.io
+
+- layout: left
+  name: IDE
+  description: |
+    * Visual Studio
+    * Intellij
+    * Webstorm
