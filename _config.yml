@@ -1,0 +1,59 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Personal info
+name: 안정민
+title: Backend Developer
+email: dkswjdals89@gmail.com
+# website: www.github.com/sproogen/resume-theme
+
+# Social links
+# twitter_username: facespics
+github_username:  dkswjdals89
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: chillwildlife
+# linkedin_username: jameswgrant
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  새로운 것을 경험하고 배우는것을 좋아하는 7년차 개발자 안정민 입니다.
+  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+   - Rock climbing
+   - Gaming
+   - Knitting
+   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
