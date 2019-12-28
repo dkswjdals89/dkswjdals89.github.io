@@ -1,0 +1,9 @@
+- layout: left
+  name: Backend
+  description: | # this will include new lines to allow paragraphs
+    * Java, Groovy, NodeJS
+    * Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA/Redis, Spring Cloud AWS
+    * JPA, Querydsl, Hibernate
+    * Junit4, Mockito, Spock
+    * Gradle, Maven
+    * IntelliJ, Visual Studio Code

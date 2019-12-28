@@ -4,4 +4,4 @@
 _site
 Gemfile.lock
 *.code-workspace
-.idea
+/.idea/

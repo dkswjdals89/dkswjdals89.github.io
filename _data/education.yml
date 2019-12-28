@@ -2,8 +2,9 @@
   name: 강원대학교
   dates: 2008 ~ 2014
   qualification: 컴퓨터 공학
-  quote: >
-    Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+  # quote: >
+    # Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
   description: | # this will include new lines to allow paragraphs
-    학부생 시절 동아리 활동
-
+    - ZeroOne 학술 동아리 활동
+      C++ 학습 및 신입생 코딩 교육
+    - [J.S.E.A 학술 동아리](http://jseaknu.egloos.com) 활동
