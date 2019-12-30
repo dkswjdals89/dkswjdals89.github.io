@@ -2,6 +2,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
 @import url(https://use.fontawesome.com/releases/v5.11.2/css/all.css);
 @import url(https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css);
+@import url(../assets/css/KoPubDotum.css);
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
@@ -148,7 +149,7 @@ html {
 
 body {
   background: #ffffff;
-  font-family: Roboto, sans-serif;
+  font-family: KoPub Dotum, Roboto, sans-serif;
   -webkit-font-smoothing: antialiased; }
 
 .center-text {
@@ -162,6 +163,9 @@ body {
   }
 }
 
+.header-name {
+  border-bottom: solid 2px #333333;
+}
 .header-contianer {
   margin-top:50px;
 }

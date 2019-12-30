@@ -4,13 +4,14 @@
   job_title: Backend Developer
   dates: 2017.02 ~ 현재
   quote: >
-   국내 모바일 진료 접수/예약 Platform
-  description: | # this will include new lines to allow paragraphs
-    AWS, Node.js, MongoDB, Redis, SQS, ElasticSearch
-    * Backend 접수/예약 개발 파트 리더
-    * AWS 운영 인프라 구축 및 관리
+   국내 모바일 병의원 진료 접수/예약 Platform
+  description: |
+    * Backend팀 접수/예약 서비스 개발 파트(브라보파트) 리더 역임
+    * AWS 운영 인프라 구축 운영 및 관리
+    * Server Application 모니터링을 위한 <mark>ELK Stack</mark> 구축 및 운영
     * EMR Chart(병의원 전자 차트) 연계 <mark>모바일 접수/예약</mark> 시스템 개발
     * <mark>카카오 병원 찾기</mark> 연동 모바일 접수 API 시스템 개발
+    * 검색 엔진을 이용한 병원/약국 찾기 검색 고도화 개발
 
 - layout: left
   company: 모베란
@@ -18,10 +19,7 @@
   job_title: Application Developer
   dates: 2013.07 ~ 2017.01
   quote: >
-    방송 솔루션 및 외주 개발 SI
+    방송국 관련 솔루션 및 기타 외주 솔루션 개발
   description: | # this will include new lines to allow paragraphs
-    C# Winform, WPF, ASP.net, Java Spring 등 다양한 개발 언어 및 프레임워크 개발 경험
-
-    * 인천시 행복나눔 복지 포탈 개발
-    * MBC 방송 편성, 송출 준비, 컨텐트 유통 관리, 시스템 개발
-    * MBC 2014 지방선거, 2016 총선 방송 송출 컨트롤 솔류션 개발
+    * Backend, Fontend, Window Application 프로그램 개발
+    * C# Winform, WPF, ASP.net, Java Spring 등 다양한 개발 언어 & 프레임워크 사용 개발 경험

@@ -13,7 +13,7 @@ darkmode: false
 
 # Social links
 #twitter_username: jekyllrb
-github_username:  dkswdjals89
+github_username:  dkswjdals89
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
 #facebook_username: jekyll
@@ -45,7 +45,11 @@ github_username:  dkswdjals89
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  새로운 것을 경험하고 배우는것을 좋아하는 7년차 개발자 안정민 입니다.
+  새로운 기술을 경험하고 배우는것을 좋아하는 7년차 개발자 안정민 입니다.
+  서버 사이드와 프론트엔드 그리고 윈도우 어플리케이션 개발 경험이 있으며, 시스템 아키텍쳐를 설계하고 만들어 나가는것에 좀 더 재미를 느껴 현재 백엔드 기술 스택에 집중하고 있습니다.
+
+  개발 코드, 서버 인프라 부분에서 좀 더 효율적인 방법이 있는지 고민하고 개선해나가는것을 좋아하며,
+  최근에는 검색에 대한 DB 부하 분산 및 더 높은 레벨의 검색기능을 구현해보고 싶어, <mark>ElasticSearch</mark>를 이용한 자연어 검색에 관심을 가지고 실무에도 적용한 바 있습니다.
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -55,13 +59,14 @@ about_content: | # this will include new lines to allow paragraphs
 
 # Education Section
 # education_title: Education #(Use this to override about education section title)
+skill_title: Programming Skill
 
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+#more_content: | # this will include new lines to allow paragraphs
+#  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+#
+#  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true

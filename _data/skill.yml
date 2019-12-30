@@ -2,9 +2,9 @@
   name: Languages & Famework
   description: | # this will include new lines to allow paragraphs
     * C#
-      * ASP.net
       * Winform
       * WPF
+      * ASP.net
     * Java
       * Spring Famework
       * Mybaties
@@ -12,11 +12,49 @@
       * Maven, Gradle
     * JavaScript
       * Node.js
-      * Paser.io
+      * Express
+      * Angular 7
+      * phaser.io
+      * Gulp
+
+- layout: left
+  name: DataBase
+  description: |
+    * RDS
+      * MySQL
+      * Oracle
+    * NoSQL
+      * MongoDB
+      * AWS DynamoDB
+
+- layout: left
+  name: AWS
+  description: |
+    * Compute
+      * EC2, Elastic Beastalk, ECS, ECR, Lambda
+    * Storage
+      * S3
+    * Analytics
+      * Athena
+      * ElasticSearch Service
+    * Application Integration
+      * SQS, SNS
+    * DataBase
+      * ElasticCache
+      * DynamoDB
+      * RDS
+    * Networking & Content Delivery
+      * CloudFront
+      * VPC
+      * Route 53
+    * Security, Identity, & Compliance
+      * IAM
+      * KMS
+    * Developer Tools
+      * CodeCommit, CodeBuild, CodePipline
 
 - layout: left
   name: IDE
   description: |
     * Visual Studio
-    * Intellij
-    * Webstorm
+    * Jetbrain Intellij & Webstorm

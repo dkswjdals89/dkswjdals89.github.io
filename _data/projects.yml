@@ -1,7 +1,115 @@
 - layout: top-middle
-  name: 똑닥 모바일 접수/예약 서비스
-  link: github.com/sproogen
+  name: 똑닥 병원/약국 찾기 <mark>검색</mark> 고도화
   quote: >
-    모바일로 간편하게 병의원 진료를 접수/예약 할수있게 합니다.
-  description: | # this will include new lines to allow paragraphs
-    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+    2019.05 ~ 2019.11<br>
+    검색 엔진을 이용한 국내 병의원/약국 정보 검색 기능
+  description: |
+    - 기존에 제공하던 병원명 검색 기능에서 병원명, 진료과목, 진료 항목, 병원 주소등의 정보를 이용한 폭 넓은 검색 기능 제공
+    - 병원, 약국 검색 시 Slow Query가 많이 발생되던 Like Query, Regex Query 등으로 인한 DB 부하 감소
+    - MongoDB Change Stream, Serverless Lambda를 활용하여 병의원/약국 데이터 변경에 따른 실시간 검색 엔진 업데이트 처리
+    - 사용자 검색 키워드 모니터링을 위한 Kibana Dashboard 구축
+    - ```Node.js, MongoDB, AWS Lambda, ElasitcSearch```
+
+- layout: top-middle
+  name: 똑닥 모바일 <mark>접수/예약 연동 API</mark> 서비스
+  quote: >
+    똑닥 접수 서비스를 타 플랫폼인 카카오톡에서도 모바일 접수를 할수 있도록 제공하기위한 서비스
+  description: |
+    - 카카오 뿐만 아니라, 타 플랫폼에서도 사용할수 있도록 범용 설계
+    - 기존 접수/예약 시스템과 타 플랫폼 제공 API간 장애 영향을 최소화 하기 위한 아키텍쳐 설계 진행
+    - ```Node.js, Redis, AWS SQS, Lambda```
+
+- layout: top-middle
+  name: 똑닥 모바일 <mark>접수/예약</mark> 서비스
+  quote: >
+    언제 어디서든 병원에 직접 방문하지 않고 모바일로 간편하게 접수/예약을 제공하는 서비스
+  description: |
+    - EMR 차트사와 연계하여 병의원의 현재 진료 상태 정보 및 모바일 접수/예약 신청을 주고 받을 수있는 API 서비스 개발
+    - 2019년 기준 평균 분당 8~10만 서버 요청 트래픽 발생
+    - 각종 기능 업데이트 등으로 발생되는 레거시 코드 및 성능 개선을 위하여 주기적으로 리펙토링 진행
+    - 병원에서 똑닥 모바일 접수,예약에 대한 스케줄, 설정을 할수 있는 관리자 사이트(병원 어드민) API 서버 개발
+    - ```Node.js, MongoDB, DaynamoDB, Redis, Socket.io```
+
+- layout: top-middle
+  name: MBC ContentGateway3
+  quote: >
+    2016.09 ~ 2017.01<br>
+    MBC 방송 컨텐츠를 외부 업체에 제공 관리하기 위한 웹 포털 사이트
+  description: |
+    - 기존에 Silverlight로 구축되어 있는 사이트를 역공학하여 C# ASP.net 으로 컨버팅
+    - Wowza 스트리밍 서버를 통해 영상을 웹에서 재생하고 프레임 단위로 간편 편집이 가능한 웹 플레이어 구현
+    - 외부 업체의 영상 요청등에 대한 별도의 처리 에이전트 응용프로그램 개발
+    - ```C#, ASP.Net, WPF, OracleDB, Telerik Kendo UI, DashPlayer.js```
+
+- layout: top-middle
+  name: MBC 통합 유통 포탈 사이트
+  quote: >
+    2016.05 ~ 2016.08
+  description: |
+    - MBC에서 유통하는 방송 컨텐츠에 대한 유통 추이, 순위, 매출등을 확인할 수 있는 관리 포털 사이트
+    - ```C#, ASP.Net, OracleDB, Telerik Kendo UI```
+
+- layout: top-middle
+  name: MBC 2016 총선 선거 방송 송출 컨트롤러
+  quote: >
+    2016.02 ~ 2016.04
+  description: |
+    - 2014 지방선거에서 구축한 컨트롤러에 대한 기능 개선 진행
+    - 선관위의 실시간 개표 데이터를 받아 자막기를 이용하여 영상 포멧을 가공, 개표 현황에 따른 애니메이션 효과등을 처리하여 실시간으로 방송 송출하는 컨트롤러 개발
+    - 방송 송출 장비간 TCP/UDP 소켓 통신 처리
+    - 라이브 개표 방송 송출 컨트롤러 운용
+    - ```C# Winform, Karisma3D 자막기```
+
+- layout: top-middle
+  name: U2IS Wallet System
+  quote: >
+    2015.07 ~ 2016.01
+  description: |
+    - 여러 해외 업체의 온라인 보드 게임을 연동하여, 공통된 API 인터페이스로 로그인, 게임 실행 및 Credit을 관리하는 중계 서비스
+    - ```Java, MySQL, SpringBoot, Mybaties```
+
+- layout: top-middle
+  name: Moca Game
+  quote: >
+    2015.03 ~ 2015.07
+  description: |
+    - HTML5 웹 카드 게임 시스템 구축 개발
+    - Backend, Fontend 개발 담당
+    - ```Java, MySQL, SpringFramwork, Mybaties, Phaser.io```
+
+- layout: top-middle
+  name: FMS 솔루션
+  quote: >
+    2014.10 ~ 2015.02
+  description: |
+    - 건물 관리 시스템 웹 포털 사이트 개발
+    - Backend, Fontend 개발 담당
+    - ```Java, MySQL, SpringFramwork, Mybaties```
+
+- layout: top-middle
+  name: MBC 편성 뱅크 매니저
+  quote: >
+    2014.08 ~ 2014.10
+  description: |
+    - MBC 방송국 송출 편성 관리 등록 윈도우 어플리케이션 개발
+    - 방송용 모니터링 장비와 연동하여 녹화방송, 광고 영상을 미리 확인 할수있도록 기능 구현
+    - ```C#, OracleDB, Winform, DevExpressUI```
+
+- layout: top-middle
+  name: MBC 2014 지방선거방송 송출 컨트롤
+  quote: >
+    2014.03 ~ 2014.05
+  description: |
+    - 선관위의 실시간 개표 데이터를 받아 자막기를 이용하여 영상 포멧을 가공, 개표 현황에 따른 애니메이션 효과등을 처리하여 실시간으로 방송 송출하는 컨트롤러 개발
+    - 방송 송출 장비간 TCP/UDP 소켓 통신 처리
+    - 라이브 개표 방송 송출 컨트롤러 운용
+    - ```C#, Winform, Karisma3D 자막기```
+
+- layout: top-middle
+  name: 인천시 행복나눔 복지 포털
+  quote: >
+    2013.11 ~ 2014.01
+  description: |
+    - 인천에서 주관하는 재능 기부, 사회 복지 기부 포털 사이트
+    - Backend, Fontend 개발 담당
+    - ```Java, MySQL, SpringFramwork, Mybaties```
