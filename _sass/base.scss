@@ -2,7 +2,8 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
 @import url(https://use.fontawesome.com/releases/v5.11.2/css/all.css);
 @import url(https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css);
-@import url(../assets/css/KoPubDotum.css);
+//@import url(../assets/css/KoPubDotum.css);
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
@@ -12,7 +13,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
@@ -46,7 +47,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   font-size: 1em; }
 
 label {
@@ -149,7 +150,7 @@ html {
 
 body {
   background: #ffffff;
-  font-family: KoPub Dotum, Roboto, sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   -webkit-font-smoothing: antialiased; }
 
 .center-text {
