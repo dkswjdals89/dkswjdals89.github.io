@@ -75,8 +75,8 @@
     2015.03 ~ 2015.07
   description: |
     - HTML5 웹 카드 게임 시스템 구축 개발
-    - Backend, Fontend 개발 담당
-    - ```Java, MySQL, SpringFramwork, Mybaties, Phaser.io```
+    - Backend, Frontend 개발 담당
+    - ```Java, MySQL, SpringFramework, Mybaties, Phaser.io```
 
 - layout: top-middle
   name: FMS 솔루션
@@ -84,8 +84,8 @@
     2014.10 ~ 2015.02
   description: |
     - 건물 관리 시스템 웹 포털 사이트 개발
-    - Backend, Fontend 개발 담당
-    - ```Java, MySQL, SpringFramwork, Mybaties```
+    - Backend, Frontend 개발 담당
+    - ```Java, MySQL, SpringFramework, Mybaties```
 
 - layout: top-middle
   name: MBC 편성 뱅크 매니저
@@ -112,5 +112,5 @@
     2013.11 ~ 2014.01
   description: |
     - 인천에서 주관하는 재능 기부, 사회 복지 기부 포털 사이트
-    - Backend, Fontend 개발 담당
-    - ```Java, MySQL, SpringFramwork, Mybaties```
+    - Backend, Frontend 개발 담당
+    - ```Java, MySQL, SpringFramework, Mybaties```
