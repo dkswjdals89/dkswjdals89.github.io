@@ -31,7 +31,7 @@
   name: AWS
   description: |
     * Compute
-      * EC2, Elastic Beastalk, ECS, ECR, Lambda
+      * EC2, Elastic Beanstalk, ECS, ECR, Lambda
     * Storage
       * S3
     * Analytics
