@@ -48,8 +48,8 @@ about_content: | # this will include new lines to allow paragraphs
   새로운 기술을 경험하고 배우는것을 좋아하는 7년차 개발자 안정민 입니다.
   서버 사이드와 프론트엔드 그리고 윈도우 어플리케이션 개발 경험이 있으며, 시스템 아키텍쳐를 설계하고 만들어 나가는것에 좀 더 재미를 느껴 현재 백엔드 기술 스택에 집중하고 있습니다.
 
-  개발 코드, 서버 인프라 부분에서 좀 더 효율적인 방법이 있는지 고민하고 개선해나가는것을 좋아하며,
-  최근에는 검색에 대한 DB 부하 분산 및 사용자에게 더 유용한 검색 기능을 구현하고자, <mark>ElasticSearch</mark>를 이용한 자연어 검색에 관심을 가지고 실무에도 적용한 바 있습니다.
+  개발 및 운영에서 발생하는 이슈에 대해 더 나은 방안이 없는지 고민하고 개선해 나가는것을 좋아하며
+  최근에는 사용자에게 빠르고 더 나은 검색 경험을 제공하기 위해 검색 엔진을 학습하여 실무에 적용한 바 있습니다.
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)

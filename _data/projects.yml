@@ -1,4 +1,11 @@
 - layout: top-middle
+  name: 지그재그 해외 서비스
+  description: |
+    - ElasticSearch 검색 엔진을 활용한 상품 검색 서비스 개발
+    - 사용자들에게 인기 상품을 추천하기 위해 Redis Sorted Sets을 활용한 일일 상품 랭킹 집계 기능 개발
+    - ```Node.js, Mysql, Redis, GraphQL, ElasticSearch, Kibana```
+
+- layout: top-middle
   name: 똑닥 병원/약국 찾기 <mark>검색</mark> 고도화
   quote: >
     2019.05 ~ 2019.11<br>
@@ -15,7 +22,7 @@
   quote: >
     똑닥 접수 서비스를 타 플랫폼인 카카오톡에서도 모바일 접수를 할수 있도록 제공하기위한 서비스
   description: |
-    - 카카오 뿐만 아니라, 타 플랫폼에서도 사용할수 있도록 범용 설계
+    - 카카오 뿐만 아니라, 타 플랫폼에서도 사용할수 있도록 서비스 설계
     - 기존 접수/예약 시스템과 타 플랫폼 제공 API간 장애 영향을 최소화 하기 위한 아키텍쳐 설계 진행
     - 2019.11 카카오 제휴 종료로 인한 서비스 종료
     - ```Node.js, Redis, AWS SQS, Lambda```

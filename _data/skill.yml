@@ -8,7 +8,6 @@
     * Java
       * Spring Famework
       * Mybaties
-      * Hibernate
       * Maven, Gradle
     * JavaScript
       * Node.js
@@ -22,7 +21,6 @@
   description: |
     * RDS
       * MySQL
-      * Oracle
     * NoSQL
       * MongoDB
       * AWS DynamoDB
