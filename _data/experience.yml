@@ -1,8 +1,18 @@
 - layout: left
+  company: 크로키닷컴
+  link: https://zigzag.kr
+  job_title: Backend Developer
+  dates: 2020.02 ~ 현재
+  description: |
+    * 해외 의류 쇼핑몰 서비스 개발 및 운영
+    * 일본어 형태소 분석기(kuromoji)를 이용한 검색 서비스 개발 운영
+    * Datadog APM을 활용한 API 개선
+
+- layout: left
   company: 비브로스
   link: https://bbros.co.kr
   job_title: Backend Developer
-  dates: 2017.02 ~ 현재
+  dates: 2017.02 ~ 2020.02
   quote: >
    국내 모바일 병의원 진료 접수/예약 Platform
   description: |
