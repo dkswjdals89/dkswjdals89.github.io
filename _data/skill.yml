@@ -1,58 +1,42 @@
 - layout: left
-  name: Languages & Famework
+  name: Backend
   description: | # this will include new lines to allow paragraphs
     * C#
-      * Winform
-      * WPF
       * ASP.net
-    * Java
-      * Spring Famework
-      * Mybaties
+    * Java & Kotlin
+      * Spring Framework
+      * JPA, Hibernate, Querydsl, Mybatis
+      * Junit, Kotest, Mockito, MockK
       * Maven, Gradle
-    * JavaScript
+    * JavaScript & TypeScript
       * Node.js
-      * Express
-      * Angular 7
-      * phaser.io
-      * Gulp
+      * Express.js
+      * Mocha, Chai, Sinon
 
 - layout: left
-  name: DataBase
+  name: DevOps
   description: |
-    * RDS
-      * MySQL
-    * NoSQL
-      * MongoDB
-      * AWS DynamoDB
+    * MySQL, MongoDB, AWS DynamoDB
+    * EC2, Elastic Beanstalk, ECS, ECR, Lambda, S3
+    * Athena, ElasticSearch Service
+    * SQS, SNS
+    * ElasticCache, DynamoDB, RDS
+    * CloudFront, VPC, Route 53
+    * IAM, KMS
+    * CodeCommit, CodeBuild, CodePipeline
 
 - layout: left
-  name: AWS
+  name: Frontend
   description: |
-    * Compute
-      * EC2, Elastic Beanstalk, ECS, ECR, Lambda
-    * Storage
-      * S3
-    * Analytics
-      * Athena
-      * ElasticSearch Service
-    * Application Integration
-      * SQS, SNS
-    * DataBase
-      * ElasticCache
-      * DynamoDB
-      * RDS
-    * Networking & Content Delivery
-      * CloudFront
-      * VPC
-      * Route 53
-    * Security, Identity, & Compliance
-      * IAM
-      * KMS
-    * Developer Tools
-      * CodeCommit, CodeBuild, CodePipline
+    * HTML, CSS, SCSS
+    * JavaScript, TypeScript
+    * React
+    * Jest, Mocha, Chai
+    * Storybook
+    * Material-UI, Ant Design
 
 - layout: left
-  name: IDE
+  name: Window Application
   description: |
-    * Visual Studio
-    * Jetbrain Intellij & Webstorm
+    * C#
+      * WPF, Winform
