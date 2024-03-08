@@ -3,11 +3,11 @@
   quote: >
     2022.07 ~ 현재
   description: |
-    - Node.js로 개발된 기존 서비스를 코틀린으로 전환
-    - 일본향 나우나우 서비스에서 사용하던 AWS 일본 리전 인프라를 한국 리전으로 이전
-    - 도매 OpenAPI 설계 및 구현
+    - Node.js로 개발된 기존 서비스를 코틀린으로 전환 작업
+    - AWS tokyo region 에서 seoul region 전환 작업
+    - 풀필먼트 대행 업체 연동을 위한 도매 OpenAPI 설계 및 구현
     - 셀러 정산 서비스 개발 (정산 내역, 송금 자동화)
-    - 백오피스 FrontEnd 개발
+    - ```Kotlin, SpringBoot, GraphQL, JPA```
 
 - layout: top-middle
   name: 지그재그 배송추적 서비스 코틀린 전환
@@ -16,6 +16,7 @@
   description: |
     - 지그재그 주문의 배송 추적을 담당하는 서비스를 기존 Node.js에서 코틀린으로 포팅하는 프로젝트
     - 기존 Node.js 서버를 유지한 상태에서 API 단위로 트래픽 전환
+    - ```Kotlin, SpringBoot, JPA, GraphQL, Kafka```
 
 - layout: top-middle
   name: 일본향 패션 이커머스 나우나우 서비스
@@ -23,12 +24,14 @@
     2020.04 ~ 2022.07
   description: |
     - ElasticSearch 검색 엔진을 활용한 일본어 상품 검색 서비스 개발
-    - 인기 상품 추천을 위해 Redis Sorted Sets을 활용한 상품 랭킹 집계 기능 개발
+    - API latency 개선을 위해 Redis를 이용한 캐싱 및 비동기 처리 로직 개선
+    - Redis sorted sets 자료 구조를 활용한 상품 랭킹 기능 개발
+    - 동시성 이슈를 해결 하기 위한 Redis 분산 락 적용 
     - 상품 할인 이벤트, 쿠폰, 포인트 적립 등의 프로모션 기능 개발
     - 물류 대행 업체 연동 API 개발
     - 외부 업체 도매 상품 연동 API 개발
-    - 백오피스 FrontEnd 개발
-    - ```Node.js, Mysql, Redis, GraphQL, ElasticSearch, Kibana, AWS SQS, AWS lambda```
+    - 백오피스 개발 (backend, frontend)
+    - ```Node.js(TypeScript), Mysql, Redis, GraphQL, ElasticSearch, Kibana, AWS SQS, AWS lambda```
 
 - layout: top-middle
   name: 똑닥 병원/약국 찾기 검색 고도화
@@ -36,9 +39,9 @@
     2019.05 ~ 2019.11<br>
     검색 엔진을 이용한 국내 병의원/약국 정보 검색 기능
   description: |
-    - 기존에 제공하던 병원명 검색 기능에서 병원명, 진료과목, 진료 항목, 병원 주소등의 정보를 이용한 폭 넓은 검색 기능 제공
-    - 병원, 약국 검색 시 Slow Query가 많이 발생되던 Like Query, Regex Query 등으로 인한 DB 부하 감소
-    - MongoDB Change Stream, Serverless Lambda를 활용하여 병의원/약국 데이터 변경에 따른 실시간 검색 엔진 업데이트 처리
+    - 병원, 약국 검색 시 Like Query, Regex Query 등으로 인한 Slow Query와 DB 부하를 해소하고, 검색 성능 향상을 위한 ElasticSearch 검색 엔진 도입
+    - 검색 편의를 위한 검색어 자동완성, 검색 키워드 추천 기능 개발
+    - MongoDB Change Stream, AWS Lambda를 활용하여 병의원/약국 데이터 변경에 따른 실시간 검색 엔진 업데이트 처리
     - 사용자 검색 키워드 모니터링을 위한 Kibana Dashboard 구축
     - ```Node.js, MongoDB, AWS Lambda, ElasticSearch```
 
@@ -47,7 +50,7 @@
   quote: >
     똑닥 접수 서비스를 타 플랫폼인 카카오톡에서도 모바일 접수를 할수 있도록 제공하기위한 서비스
   description: |
-    - 카카오 뿐만 아니라, 타 플랫폼에서도 사용할수 있도록 서비스 설계
+    - 여러 플랫폼에서 연동 가능하도록 서비스 설계
     - 기존 접수/예약 시스템과 타 플랫폼 제공 API간 장애 영향을 최소화 하기 위한 아키텍쳐 설계 진행
     - 2019.11 카카오 제휴 종료로 인한 서비스 종료
     - ```Node.js, Redis, AWS SQS, Lambda```
@@ -55,13 +58,17 @@
 - layout: top-middle
   name: 똑닥 모바일 접수/예약 서비스
   quote: >
+    2017.02 ~ 2020.02<br>
     언제 어디서든 병원에 직접 방문하지 않고 모바일로 간편하게 접수/예약을 제공하는 서비스
   description: |
-    - EMR 차트사와 연계하여 병의원의 현재 진료 상태 정보 및 모바일 접수/예약 신청을 주고 받을 수있는 API 서비스 개발
+    - EMR 차트사와 연계하여 병의원의 현재 진료 상태 정보 및 모바일 접수/예약 신청을 주고 받을 수있는 서비스 개발
+    - 영유아 검진 예약 & 사전 문진표 기능 개발
+      - 사전 문진표 작성 관련 특허 출원 (출원번호:10-2018-0158500)
+    - 병원에서 접수 & 예약 기능 설정을 위한 병원 어드민 API 서버 개발
     - 2019년 기준 평균 분당 8~10만 서버 요청 트래픽 발생
-    - 각종 기능 업데이트 등으로 발생되는 레거시 코드 및 성능 개선을 위하여 주기적으로 리펙토링 진행
-    - 병원에서 똑닥 모바일 접수,예약에 대한 스케줄, 설정을 할수 있는 관리자 사이트(병원 어드민) API 서버 개발
-    - ```Node.js, MongoDB, DynamoDB, Redis, Socket.io```
+    - 각종 기능 업데이트 등으로 발생되는 레거시 코드 및 성능 개선
+      - event loop lag, SQS & Lambda를 이용한 비동기 처리 개선
+    - ```Node.js, MongoDB, AWS DynamoDB, Redis, Socket.io```
 
 - layout: top-middle
   name: MBC ContentGateway3
@@ -72,7 +79,7 @@
     - 기존에 Silverlight로 구축되어 있는 프로젝트를 역공학하여 C# ASP.net 으로 컨버팅 및 기능 고도화
     - Wowza 스트리밍 서버를 통해 영상을 웹에서 재생하고 프레임 단위로 간편 편집이 가능한 웹 플레이어 구현
     - 외부 업체의 영상 요청등에 대한 별도의 처리 에이전트 응용프로그램 개발
-    - ```C#, ASP.Net, WPF, OracleDB, Telerik Kendo UI, DashPlayer.js```
+    - ```C#, ASP.Net, WPF, OracleDB, Telerik Kendo UI```
 
 - layout: top-middle
   name: MBC 통합 유통 포탈 사이트

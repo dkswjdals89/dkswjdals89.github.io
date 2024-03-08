@@ -16,14 +16,13 @@
 - layout: left
   name: DevOps
   description: |
-    * MySQL, MongoDB, AWS DynamoDB
+    * MySQL, MongoDB
     * EC2, Elastic Beanstalk, ECS, ECR, Lambda, S3
     * Athena, ElasticSearch Service
     * SQS, SNS
-    * ElasticCache, DynamoDB, RDS
+    * ElasticCache, RDS
     * CloudFront, VPC, Route 53
     * IAM, KMS
-    * CodeCommit, CodeBuild, CodePipeline
 
 - layout: left
   name: Frontend
