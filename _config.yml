@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: dkswjdals89/dkswjdals89.github.io
 favicon: assets/favicon.ico
 
 # Personal info
@@ -45,9 +45,10 @@ github_username:  dkswjdals89
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  새로운 기술을 경험하고 배우는것을 좋아하는 11년차 개발자로 백엔드와 프론트엔드 그리고 윈도우 어플리케이션 개발 경험이 있으며, 
-  시스템 아키텍쳐를 설계하고 만들어 나가는것에 좀 더 재미를 느껴 현재 백엔드 기술 스택에 집중하고 있습니다.  
-  테스트 코드 작성을 중요하게 생각하며, 코드 리뷰를 통해 팀원들과 함께 성장하는것을 좋아합니다.  
+  새로운 기술을 경험하고 배우는것을 즐기는 11년차 개발자로 백엔드와 프론트엔드 그리고 윈도우 어플리케이션 개발 경험이 있습니다.   
+  시스템 아키텍쳐를 설계하고 만들어 나가는것에 조금 더 재미를 느껴 백엔드 기술 스택에 집중하고 있습니다.  
+  코드 품질을 위해 테스트 코드 작성을 중요하게 생각하고, 팀원들과의 코드 리뷰를 통해 지속적으로 서로 성장하는 과정을 소중히 여기며, 
+  함께 일하는 동료들과의 협업을 통해 더 나은 서비스를 만들어 나가는 것에 대한 열정을 가지고 있습니다.
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
