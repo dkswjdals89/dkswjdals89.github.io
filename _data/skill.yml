@@ -1,8 +1,6 @@
 - layout: left
   name: Backend
   description: | # this will include new lines to allow paragraphs
-    * C#
-      * ASP.net
     * Java & Kotlin
       * Spring Framework
       * JPA, Hibernate, Querydsl, Mybatis
@@ -23,19 +21,3 @@
     * ElasticCache, RDS
     * CloudFront, VPC, Route 53
     * IAM, KMS
-
-- layout: left
-  name: Frontend
-  description: |
-    * HTML, CSS, SCSS
-    * JavaScript, TypeScript
-    * React
-    * Jest, Mocha, Chai
-    * Storybook
-    * Material-UI, Ant Design
-
-- layout: left
-  name: Window Application
-  description: |
-    * C#
-      * WPF, Winform
