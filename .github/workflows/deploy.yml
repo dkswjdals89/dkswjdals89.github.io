@@ -38,6 +38,12 @@ jobs:
         id: setup-chrome
         uses: browser-actions/setup-chrome@v2
 
+      - name: Install Korean fonts for PDF rendering
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends fonts-noto-cjk
+          fc-cache -f
+
       - name: Build site and localized PDFs
         run: pnpm run build
         env:

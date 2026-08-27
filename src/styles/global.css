@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+/*
+  Korean glyphs must resolve on every build host. Headless Chrome on the CI
+  runner has no Korean face installed by default and silently falls back to
+  DejaVu Sans, which ships no Hangul, so the generated PDF renders tofu.
+  Naming the Korean faces keeps macOS and Linux builds on a known font.
+*/
+@theme {
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Apple SD Gothic Neo", "Noto Sans CJK KR", "Noto Sans KR", "Malgun Gothic",
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
 * {
   box-sizing: border-box;
 }

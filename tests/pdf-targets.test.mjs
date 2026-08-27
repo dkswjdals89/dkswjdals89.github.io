@@ -34,3 +34,19 @@ test("makes standard builds produce localized PDFs and development print locally
   assert.match(printButton, /import\.meta\.env\.DEV/);
   assert.match(printButton, /window\.print\(\)/);
 });
+
+test("installs Korean fonts before the GitHub Actions PDF build", () => {
+  const workflow = readFileSync(new URL("../.github/workflows/deploy.yml", import.meta.url), "utf8");
+  const fontStep = workflow.indexOf("fonts-noto-cjk");
+  const buildStep = workflow.indexOf("run: pnpm run build");
+
+  assert.notEqual(fontStep, -1, "deploy.yml must install a Korean-capable font");
+  assert.ok(fontStep < buildStep, "fonts must be installed before the PDF build runs");
+});
+
+test("declares a Korean-capable font stack so print output never falls back to DejaVu Sans", () => {
+  const globalCss = readFileSync(new URL("../src/styles/global.css", import.meta.url), "utf8");
+
+  assert.match(globalCss, /"Apple SD Gothic Neo"/);
+  assert.match(globalCss, /"Noto Sans CJK KR"/);
+});
