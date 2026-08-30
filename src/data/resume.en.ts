@@ -35,28 +35,6 @@ export const resumeEn = {
     ],
     contactLabel: "Contact",
   },
-  highlights: [
-    {
-      value: `${careerYear}`,
-      label: "Years",
-      detail: "Years of software engineering experience",
-    },
-    {
-      value: "Commerce",
-      label: "Domain",
-      detail: "Catalog, orders, payments, promotions, and reviews",
-    },
-    {
-      value: "AI Agent",
-      label: "Product",
-      detail: "LLM-powered content generation systems",
-    },
-    {
-      value: "Search",
-      label: "Scale",
-      detail: "Performance improvements with Elasticsearch and Redis",
-    },
-  ],
   skillGroups: [
     {
       name: "AI Agent & LLM",

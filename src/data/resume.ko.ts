@@ -35,28 +35,6 @@ export const resumeKo = {
     ],
     contactLabel: "Contact",
   },
-  highlights: [
-    {
-      value: `${careerYear}`,
-      label: "Years",
-      detail: "소프트웨어 엔지니어 경력",
-    },
-    {
-      value: "Commerce",
-      label: "Domain",
-      detail: "상품, 주문, 결제, 프로모션, 리뷰",
-    },
-    {
-      value: "AI Agent",
-      label: "Product",
-      detail: "LLM 기반 콘텐츠 생성 시스템",
-    },
-    {
-      value: "Search",
-      label: "Scale",
-      detail: "Elasticsearch, Redis 기반 성능 개선",
-    },
-  ],
   skillGroups: [
     {
       name: "AI Agent & LLM",

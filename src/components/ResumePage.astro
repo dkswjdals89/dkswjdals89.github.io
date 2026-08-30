@@ -2,7 +2,6 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ExperienceList from "./ExperienceList.astro";
 import Header from "./Header.astro";
-import HighlightGrid from "./HighlightGrid.astro";
 import PrintButton from "./PrintButton.astro";
 import ProjectGrid from "./ProjectGrid.astro";
 import Section from "./Section.astro";
@@ -16,7 +15,7 @@ type Props = {
 };
 
 const { content, alternateHref, alternateLabel } = Astro.props;
-const { education, experiences, footer, highlights, meta, pdf, profile, projects, sections, skillGroups } = content;
+const { education, experiences, footer, meta, pdf, profile, projects, sections, skillGroups } = content;
 ---
 
 <BaseLayout
@@ -29,7 +28,6 @@ const { education, experiences, footer, highlights, meta, pdf, profile, projects
   <PrintButton href={pdf.href} download={pdf.download} label={pdf.label} />
   <Header profile={profile} locale={content.locale} alternateHref={alternateHref} alternateLabel={alternateLabel} />
   <main>
-    <HighlightGrid highlights={highlights} />
 
     <Section id="skills" {...sections.skills}>
       <SkillMatrix skillGroups={skillGroups} />

@@ -170,10 +170,6 @@ a {
     gap: 8px !important;
   }
 
-  .screen-highlights {
-    display: none !important;
-  }
-
   article {
     break-inside: avoid;
     transform: none !important;
