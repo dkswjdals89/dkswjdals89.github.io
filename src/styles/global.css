@@ -136,10 +136,6 @@ a {
     line-height: 1.55 !important;
   }
 
-  header .header-principles {
-    display: none !important;
-  }
-
   .resume-section {
     display: block !important;
     break-inside: auto;

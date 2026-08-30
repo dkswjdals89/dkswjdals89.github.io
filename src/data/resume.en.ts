@@ -21,11 +21,6 @@ export const resumeEn = {
     imageAlt: "Portrait of Jungmin Ahn",
     location: "Seoul, Korea",
     summary: profileSummary,
-    principles: [
-      "Improving quality through automated tests and code reviews",
-      "Building LLM-powered content generation agents",
-      "Experience across commerce, search, payments, orders, and fulfillment",
-    ],
     links: [
       {
         label: "GitHub",
@@ -39,7 +34,6 @@ export const resumeEn = {
       },
     ],
     contactLabel: "Contact",
-    contactNote: "LLM agent systems, generative content workflows, backend engineering, and product reliability.",
   },
   highlights: [
     {
