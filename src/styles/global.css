@@ -136,10 +136,6 @@ a {
     line-height: 1.55 !important;
   }
 
-  header .header-principles {
-    display: none !important;
-  }
-
   .resume-section {
     display: block !important;
     break-inside: auto;
@@ -172,10 +168,6 @@ a {
     display: grid !important;
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     gap: 8px !important;
-  }
-
-  .screen-highlights {
-    display: none !important;
   }
 
   article {

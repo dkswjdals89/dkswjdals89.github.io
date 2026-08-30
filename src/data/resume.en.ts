@@ -21,11 +21,6 @@ export const resumeEn = {
     imageAlt: "Portrait of Jungmin Ahn",
     location: "Seoul, Korea",
     summary: profileSummary,
-    principles: [
-      "Improving quality through automated tests and code reviews",
-      "Building LLM-powered content generation agents",
-      "Experience across commerce, search, payments, orders, and fulfillment",
-    ],
     links: [
       {
         label: "GitHub",
@@ -39,30 +34,7 @@ export const resumeEn = {
       },
     ],
     contactLabel: "Contact",
-    contactNote: "LLM agent systems, generative content workflows, backend engineering, and product reliability.",
   },
-  highlights: [
-    {
-      value: `${careerYear}`,
-      label: "Years",
-      detail: "Years of software engineering experience",
-    },
-    {
-      value: "Commerce",
-      label: "Domain",
-      detail: "Catalog, orders, payments, promotions, and reviews",
-    },
-    {
-      value: "AI Agent",
-      label: "Product",
-      detail: "LLM-powered content generation systems",
-    },
-    {
-      value: "Search",
-      label: "Scale",
-      detail: "Performance improvements with Elasticsearch and Redis",
-    },
-  ],
   skillGroups: [
     {
       name: "AI Agent & LLM",

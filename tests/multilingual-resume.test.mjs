@@ -57,3 +57,26 @@ test("keeps the mobile header within the viewport", () => {
   assert.match(korean, /<nav class="no-print flex flex-col min-w-0/);
   assert.doesNotMatch(korean, /<nav class="[^"]*\bpr-28\b/);
 });
+
+test("omits the header principles grid and the contact note in both locales", () => {
+  const korean = readPage("../dist/index.html");
+  const english = readPage("../dist/en/index.html");
+
+  assert.doesNotMatch(korean, /header-principles/);
+  assert.doesNotMatch(english, /header-principles/);
+  assert.doesNotMatch(korean, /테스트 코드와 코드 리뷰를 통한 품질 개선/);
+  assert.doesNotMatch(english, /Improving quality through automated tests and code reviews/);
+  assert.doesNotMatch(korean, /LLM Agent 시스템, 생성형 콘텐츠 워크플로우/);
+  assert.doesNotMatch(english, /LLM agent systems, generative content workflows/);
+});
+
+test("omits the highlights band in both locales", () => {
+  const korean = readPage("../dist/index.html");
+  const english = readPage("../dist/en/index.html");
+
+  assert.doesNotMatch(korean, /screen-highlights/);
+  assert.doesNotMatch(english, /screen-highlights/);
+  assert.doesNotMatch(korean, /소프트웨어 엔지니어 경력/);
+  assert.doesNotMatch(english, /Years of software engineering/);
+  assert.doesNotMatch(korean, /Elasticsearch, Redis 기반 성능 개선/);
+});

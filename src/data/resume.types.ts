@@ -49,16 +49,9 @@ export type ResumeContent = {
     imageAlt: string;
     location: string;
     summary: string;
-    principles: string[];
     links: Link[];
     contactLabel: string;
-    contactNote: string;
   };
-  highlights: {
-    value: string;
-    label: string;
-    detail: string;
-  }[];
   skillGroups: SkillGroup[];
   experiences: ResumeItem[];
   projects: ResumeItem[];

@@ -21,11 +21,6 @@ export const resumeKo = {
     imageAlt: "안정민 프로필 사진",
     location: "Seoul, Korea",
     summary: profileSummary,
-    principles: [
-      "테스트 코드와 코드 리뷰를 통한 품질 개선",
-      "LLM AI 기반 콘텐츠 생성 에이전트 개발",
-      "커머스, 검색, 결제, 주문, 풀필먼트 도메인 경험",
-    ],
     links: [
       {
         label: "GitHub",
@@ -39,30 +34,7 @@ export const resumeKo = {
       },
     ],
     contactLabel: "Contact",
-    contactNote: "LLM Agent 시스템, 생성형 콘텐츠 워크플로우, 백엔드 엔지니어링, 제품 신뢰성을 다룹니다.",
   },
-  highlights: [
-    {
-      value: `${careerYear}`,
-      label: "Years",
-      detail: "소프트웨어 엔지니어 경력",
-    },
-    {
-      value: "Commerce",
-      label: "Domain",
-      detail: "상품, 주문, 결제, 프로모션, 리뷰",
-    },
-    {
-      value: "AI Agent",
-      label: "Product",
-      detail: "LLM 기반 콘텐츠 생성 시스템",
-    },
-    {
-      value: "Search",
-      label: "Scale",
-      detail: "Elasticsearch, Redis 기반 성능 개선",
-    },
-  ],
   skillGroups: [
     {
       name: "AI Agent & LLM",
